@@ -1,0 +1,209 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Labkey's site group adding",
+    "tags": [],
+    "uri": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/AddSiteGroup.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add group to LabkeyServer",
+        "tags": [],
+        "id": "labkey's-site-group-adding;add-group-to-labkeyserver",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Person in charge of group adding authenticates",
+            "result": {
+              "status": "passed",
+              "duration": 3818
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteGroup.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "This person has got administrator permissions for this task",
+            "result": {
+              "status": "passed",
+              "duration": 1302
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteGroup.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Administrator opens group administration",
+            "result": {
+              "status": "passed",
+              "duration": 825
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteGroup.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Creates new group",
+            "result": {
+              "status": "passed",
+              "duration": 359
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteGroup.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Group administration tool display",
+            "result": {
+              "status": "passed",
+              "duration": 59
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteGroup.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Selects users or subgroup needed for new group",
+            "result": {
+              "status": "passed",
+              "duration": 1994
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteGroup.js:40"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "labkey's-site-group-adding"
+  },
+  {
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Labkey's site user adding",
+    "tags": [],
+    "uri": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/AddSiteUser.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Add users to LabkeyServer",
+        "tags": [],
+        "id": "labkey's-site-user-adding;add-users-to-labkeyserver",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Person in charge of this task authenticates",
+            "result": {
+              "status": "passed",
+              "duration": 1921
+            },
+            "line": 7,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "This person has got administrator permissions",
+            "result": {
+              "status": "passed",
+              "duration": 1335
+            },
+            "line": 8,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Administrator opens users administration",
+            "result": {
+              "status": "passed",
+              "duration": 979
+            },
+            "line": 9,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Adds users",
+            "result": {
+              "status": "passed",
+              "duration": 736
+            },
+            "line": 10,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Users uploader display",
+            "result": {
+              "status": "passed",
+              "duration": 200
+            },
+            "line": 11,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:27"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Users'mail population",
+            "result": {
+              "status": "passed",
+              "duration": 156
+            },
+            "line": 12,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Notification sending",
+            "result": {
+              "status": "passed",
+              "duration": 1585
+            },
+            "line": 13,
+            "match": {
+              "location": "/home/ml12/Documents/Developpement/Nightwatch/Tests/features/step_definitions/AddSiteUser.js:37"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "labkey's-site-user-adding"
+  }
+]
